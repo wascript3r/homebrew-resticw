@@ -1,4 +1,4 @@
-class ResticW < Formula
+class Resticw < Formula
   on_macos do
     on_intel do
       url "https://github.com/wascript3r/homebrew-resticw/releases/download/v0.0.1/resticw-darwin-amd64.tar.gz"
