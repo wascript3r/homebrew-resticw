@@ -17,7 +17,7 @@ class Resticw < Formula
   service do
     run [opt_bin/"resticw"]
     keep_alive true
-    environment_variables PATH: std_service_path_env
+    environment_variables PATH: "/usr/local/bin:#{std_service_path_env}"
     # working_dir var/"resticw"
     # log_path var/"log/myservice.log"
     # error_log_path var/"log/myservice-error.log"
