@@ -1,12 +1,12 @@
 class Resticw < Formula
   on_macos do
     on_intel do
-      url "https://github.com/wascript3r/homebrew-resticw/releases/download/v0.0.1/resticw-darwin-amd64.tar.gz"
-      sha256 "31e5841d007ac0b63feb9f2a3c5b8e9b375e21815a379c4bafc537a97b1ba20b"
+      url "https://github.com/wascript3r/homebrew-resticw/releases/download/v0.0.2/resticw-darwin-amd64.tar.gz"
+      sha256 "dad9f97499ba9dc3033c1b6b899d62f242c643b66693eb1a8550d653a023e4bf"
     end
     on_arm do
-      url "https://github.com/wascript3r/homebrew-resticw/releases/download/v0.0.1/resticw-darwin-arm64.tar.gz"
-      sha256 "f1709cdbb14066953bd614852b8647dd590d0ffda03a02a6ce08c4504c3a213b"
+      url "https://github.com/wascript3r/homebrew-resticw/releases/download/v0.0.2/resticw-darwin-arm64.tar.gz"
+      sha256 "66afe5d4ee5d0da99766a4bb60c38ba76066992bd0f0dbc11870060f61ec673f"
     end
   end
 
@@ -18,7 +18,6 @@ class Resticw < Formula
     run [opt_bin/"resticw"]
     keep_alive true
     environment_variables PATH: "/usr/local/bin:#{std_service_path_env}"
-    log_path var/"log/path-dump.log"
     # working_dir var/"resticw"
     # log_path var/"log/myservice.log"
     # error_log_path var/"log/myservice-error.log"
