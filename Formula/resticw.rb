@@ -1,14 +1,14 @@
 class Resticw < Formula
-  version "0.0.9"
+  version "0.0.10"
 
   on_macos do
     on_intel do
       url "https://github.com/wascript3r/homebrew-resticw/releases/download/v#{version}/resticw-darwin-amd64.tar.gz"
-      sha256 "f91c3c20e4d58ceeab0010531bc9184beef2ca11ae85394896034c75c10219da"
+      sha256 "2f5638dc9a6e096a4979729e643d42b92cf2af04a5b2784ec4561bd7cc248bd6"
     end
     on_arm do
       url "https://github.com/wascript3r/homebrew-resticw/releases/download/v#{version}/resticw-darwin-arm64.tar.gz"
-      sha256 "8a1dce5269b5052e141f55102dcadc85a172b16138bcf8dba8d0ebe730ef06ff"
+      sha256 "0e8f656c2e65328287e9db7bd35f1536a4c7fa4fcd302558c349a0147516ef30"
     end
   end
 
