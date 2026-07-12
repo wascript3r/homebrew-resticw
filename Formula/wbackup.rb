@@ -1,14 +1,14 @@
 class Wbackup < Formula
-  version "0.0.10"
+  version "0.0.11"
 
   on_macos do
     on_intel do
       url "https://github.com/wascript3r/homebrew-wbackup/releases/download/v#{version}/wbackup-darwin-amd64.tar.gz"
-      sha256 "bacc15c303b3de0b0df7aabee4baeacab4d2a0e511e6305c0b2641a260faa1bb"
+      sha256 "e134917df4428964646ed9b9ceac0aed7343c702a6b2908a787ceeafa6bbd321"
     end
     on_arm do
       url "https://github.com/wascript3r/homebrew-wbackup/releases/download/v#{version}/wbackup-darwin-arm64.tar.gz"
-      sha256 "cef40d45effcda65362ad429a6f9d682d643239c1909513f3e0c4a04e6767954"
+      sha256 "af756fa0714aa0a7f819640aa482eedf6499c63bf93021433e82be0c4ce63182"
     end
   end
 
